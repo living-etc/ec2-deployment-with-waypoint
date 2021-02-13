@@ -5,5 +5,6 @@ terraform {
     bucket = "chris-wilson-terraform-remote-state"
     key    = "ec2-deployment-with-waypoint/0_vpc"
     region = "eu-west-1"
+    acl    = "bucket-owner-full-control"
   }
 }
